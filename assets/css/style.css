@@ -16,7 +16,6 @@ h2{
 }
 h3{
     font-size: 30px;
-    
 }
 h4{
     font-size: 18px;
@@ -128,11 +127,21 @@ a{
 }
 .single-footer h4::before{
     content: " ";
-    background-color: #666;
+    background-color: rgb(175, 174, 174);
     position: absolute;
     bottom: 0;
     left: 0;
     width: 45px;
     height: 2px;
 
+}
+footer .copyright{
+    background-color: #f5f2f2;
+    margin: 0;
+    padding: 0;
+}
+.copyright .container{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
 }
