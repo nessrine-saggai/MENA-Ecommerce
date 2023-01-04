@@ -135,6 +135,12 @@ a{
     height: 2px;
 
 }
+.single-footer ul li {
+    font-size: 14px;
+}
+.single-footer ul li i{
+    font-size: small;
+}
 footer .copyright{
     background-color: #f5f2f2;
     margin: 0;
