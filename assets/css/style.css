@@ -111,6 +111,64 @@ a{
     border-color: purple;
 }
 
+
+/* ================================================ Start section two ================================================ */
+
+
+.sectionTwo {
+    margin: 50px auto;
+    width: 80%
+}
+
+.sectionTwo .title h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.sectionTwo .catagoryBlocks {
+    display: flex;
+}
+
+.sectionTwo .catagoryBlocks .block {
+    margin: 0 15px;
+    padding: 25px;
+    border: 0.5px solid grey;
+    text-align: center;
+}
+
+.sectionTwo .catagoryBlocks .block:hover {
+    border: 0.5px solid yellow;
+    cursor: pointer;
+}
+
+.sectionTwo .catagoryBlocks .block a {
+    margin: 0 15px;
+}
+
+.sectionTwo .catagoryBlocks .block:hover a {
+    color: aqua;
+}
+
+
+/* ================================================ End section two ================================================ */
+
+
+/* ================================================ Start section three ================================================ */
+
+
+.sectionThree {
+    margin: 50px auto;
+    width: 80%
+}
+
+.sectionThree .navbar {
+    background-color: white;
+}
+
+/* ================================================ End section three ================================================ */
+
+
 .single-footer ul a{
     transition: padding-left .5s; 
 }
