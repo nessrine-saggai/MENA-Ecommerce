@@ -137,6 +137,16 @@ a{
     text-align: center;
 }
 
+.sectionTwo .catagoryBlocks .block .blockImg {
+    width: 200px;
+    height: 200px;
+}
+
+.sectionTwo .catagoryBlocks .block .blockImg img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .sectionTwo .catagoryBlocks .block:hover {
     border: 0.5px solid yellow;
     cursor: pointer;
@@ -164,6 +174,28 @@ a{
 
 .sectionThree .navbar {
     background-color: white;
+}
+
+.sectionThree .newArrivals {
+    display: flex;
+}
+
+.sectionThree .newArrivals .ratingBlock {
+    display: flex;
+}
+
+.sectionThree .newArrivals .ratingBlock .blockImg {
+    width: 150px;
+    height: auto;
+}
+
+.sectionThree .newArrivals .ratingBlock .blockImg img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.sectionThree .newArrivals .ratingBlock .blockInfo {
+    padding: 5px;
 }
 
 /* ================================================ End section three ================================================ */
@@ -209,22 +241,3 @@ footer .copyright{
     padding-bottom: 15px;
     
 }
-
-
-
-
-
-
-/* ================================================ Start section three ================================================ */
-
-
-.sectionThree {
-    margin: 50px auto;
-    width: 80%
-}
-
-.sectionThree .navbar {
-    background-color: white;
-}
-
-/* ================================================ End section three ================================================ */
