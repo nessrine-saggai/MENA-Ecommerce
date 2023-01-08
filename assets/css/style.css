@@ -172,12 +172,13 @@ a{
     width: 80%
 }
 
-.sectionThree .navbar {
-    background-color: white;
+.sectionThree .navbar .navLinks ul {
+    margin-left: auto;
 }
 
 .sectionThree .newArrivals {
     display: flex;
+    margin: 50px 0;
 }
 
 .sectionThree .newArrivals .ratingBlock {
@@ -196,6 +197,25 @@ a{
 
 .sectionThree .newArrivals .ratingBlock .blockInfo {
     padding: 5px;
+}
+
+.sectionThree .newArrivals .ratingBlock .blockInfo a {
+    color: aqua;
+}
+
+.sectionThree .newArrivals .ratingBlock .blockInfo a:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.sectionThree .newArrivals .ratingBlock .blockInfo .rating .checked {
+    color: orange;
+    font-size: 15px;
+}
+
+.sectionThree .newArrivals .ratingBlock .blockInfo .rating .unchecked {
+    color: white;
+    font-size: 15px;
 }
 
 /* ================================================ End section three ================================================ */
