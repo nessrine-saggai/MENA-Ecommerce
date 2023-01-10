@@ -22,6 +22,58 @@ h4{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+/* ================================================ Start navbar ================================================ */
+
+.navbar-brand {
+    width: 20%;
+}
+
+.nav-menu {
+    width: 100%;
+}
+
+.nav-side-btns {
+    width: 200px;
+    display: flex;
+}
+
+.dropdown-menu {
+    top: 47px;
+    padding: 16px 70px 16px 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-transparent-parent {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.nav-link {
+    color: rgb(34, 34, 34);
+
+}
+
+header .quick-links {
+    box-sizing:border-box;
+    width:18%;    
+    max-width:25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+    
+header .quick-links .nav-link {
+    font-size:0.8125rem;
+    padding: 5px 0 0;
+}
+/* ================================================ End navbar ================================================ */
+
+
+
 .container{
     padding-top: 60px;
 }
