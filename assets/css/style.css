@@ -175,7 +175,7 @@ header .banner{
     background-repeat: no-repeat;
 }
 .carousel-item .item-bgimage1{
-background-image: url(/assets/img/main-banner.jpg);
+background-image: url(../img/main-banner.jpg);
 background-size: cover;
 background-position: top;
 height: 800px;
@@ -184,7 +184,7 @@ width: 100%;
 }
 
 .carousel-item .item-bgimage2{
-    background-image: url(/assets/img/main-banner2.jpg);
+    background-image: url(../img/main-banner2.jpg);
     background-size: cover;
 background-position: top;
     height: 800px;
