@@ -1,804 +1,920 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MENA</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous"
-     referrerpolicy="no-referrer" />
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
-      referrerpolicy="no-referrer" />
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/webfonts/all.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
 
 </head>
+
 <body>
 
-    <header class="">
+    <header>
+        <div class="nav quick-links bg-light">
+            <a class="nav-link" href="#">Login</a>
+            <span class="nav-link" href="#">|</span>
+            <a class="nav-link" href="#">Signup</a>
+            <span class="nav-link" href="#">|</span>
+            <a class="nav-link" href="#">Products</a>
+            <span class="nav-link" href="#">|</span>
+            <a class="nav-link" href="#"">Contact</a>
+        </div>
+
+        <nav class=" navbar navbar-expand-lg bg-body-tertiary">
+
+                <div class="container-fluid">
+
+                    <a class="navbar-brand" href="#"><img src="assets/img/bolster-logo.png" alt="bolster-logo" /></a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="navbar-collapse" id="navbarNavDropdown">
+
+                        <ul class="navbar-nav nav-menu">
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="false"
+                                    aria-expanded="false">HOME</a>
+                                <div class="dropdown-transparent-parent">
+
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Home Style One</a></li>
+                                        <li><a class="dropdown-item" href="#">Home Style Two</a></li>
+                                        <li><a class="dropdown-item" href="#">Home Style Three</a></li>
+                                        <li><a class="dropdown-item" href="#">Home Style Four</a></li>
+                                        <li><a class="dropdown-item" href="#">Home Style Five</a></li>
+                                        <li><a class="dropdown-item" href="#">Home Style Six</a></li>
+                                        <li><a class="dropdown-item" href="#">Home Style Seven</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="false"
+                                    aria-expanded="false">SHOP</a>
+                                <div class="dropdown-transparent-parent">
+
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Products</a></li>
+                                        <li><a class="dropdown-item" href="#">Products Details</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">GALLERY</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="false"
+                                    aria-expanded="false">PAGES</a>
+
+                                <div class="dropdown-transparent-parent">
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Gallery</a></li>
+                                        <li><a class="dropdown-item" href="#">Shop</a></li>
+                                        <li><a class="dropdown-item" href="#">Checkout</a></li>
+                                        <li><a class="dropdown-item" href="#">Login</a></li>
+                                        <li><a class="dropdown-item" href="#">Signup</a></li>
+                                        <li><a class="dropdown-item" href="#">Error 404</a></li>
+                                        <li><a class="dropdown-item" href="#">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">BLOG</a>
+                                <div class="dropdown-transparent-parent">
+
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Blog Grid</a></li>
+                                        <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">GALLERY</a>
+                            </li>
+
+                        </ul>
+
+                        <ul class="nav-side-btns navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">LOGIN</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">|</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CART <i class="fa-solid fa-bag-shopping"></i></a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+        </nav>
+
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="banner-slide">
-                    <div class="banner item-bgimage1">
-                    
-                    <div class="d-table-cell vh-100">
-                            <div class="container-header d-flex vh-100 align-items-center justify-content-start">
-                                <div class="banner-content">
-                                    <span class="sub-title">Limited Time Offer!</span>
-                                    <h1 class="title">Clothing Made for You!</h1>
-                                    <p class="banner-paragraph">Take 20% Off ‘Sale Must-Haves'</p>
-                                    <a href="#" class="btn btn-color ">SHOP MEN'S</a>
+                <div class="carousel-item active">
+                    <div class="banner-slide">
+                        <div class="banner item-bgimage1">
+
+                            <div class="d-table-cell vh-100">
+                                <div class="container-header d-flex vh-100 align-items-center justify-content-start">
+                                    <div class="banner-content">
+                                        <span class="sub-title">Limited Time Offer!</span>
+                                        <h1 class="title">Clothing Made for You!</h1>
+                                        <p class="banner-paragraph">Take 20% Off ‘Sale Must-Haves'</p>
+                                        <a href="#" class="btn btn-color ">SHOP MEN'S</a>
+                                    </div>
                                 </div>
-                              </div>
                             </div>
                         </div>
-                            </div>
-                              </div>
-                              
-              <div class="carousel-item">
-                <div class="banner-slide">
-                    <div class="banner item-bgimage2">
-            
-                        <div class="d-table-cell vh-100">
-                            <div class="container-header d-flex vh-100 align-items-center justify-content-start">
-                                <div class="banner-content ">
-                                    <span class="sub-title">Limited Time Offer!</span>
-                                    <h1 class="title">Clothing Made for You!</h1>
-                                    <p class="banner-paragraph">Take 20% Off ‘Sale Must-Haves'</p>
-                                    <a href="#" class="btn btn-color ">Shop Men's</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="banner-slide">
+                        <div class="banner item-bgimage2">
+
+                            <div class="d-table-cell vh-100">
+                                <div class="container-header d-flex vh-100 align-items-center justify-content-start">
+                                    <div class="banner-content ">
+                                        <span class="sub-title">Limited Time Offer!</span>
+                                        <h1 class="title">Clothing Made for You!</h1>
+                                        <p class="banner-paragraph">Take 20% Off ‘Sale Must-Haves'</p>
+                                        <a href="#" class="btn btn-color ">Shop Men's</a>
+                                    </div>
                                 </div>
-                              </div>
                             </div>
-                                </div>
-                                </div>      </div>
-              
-        
-            </div> 
-          </div>
-    
-    
-    
-    
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
     </header>
-    
-    
+
+
     <section class="deal-of-the-day">
-    <div class="container">
-        <div class="deal-header d-flex">
-            <div class="countdown-deal d-flex">
-               <div class="cd-left-block">
-                <h3>
-                    Deal of the day
-    
-                </h3>
-               </div>
-    
-               
+        <div class="container">
+            <div class="deal-header d-flex">
+                <div class="countdown-deal d-flex">
+                    <div class="cd-left-block">
+                        <h3>
+                            Deal of the day
+
+                        </h3>
+                    </div>
+
+
+                </div>
+
+                <a href="#">
+                    View all
+                </a>
+
             </div>
-    
-            <a href="#">
-                View all
-            </a>
-    
-        </div>
-    
-    
-    
-    <div class="deal-content d-flex">
-        <div class="owl-carousel owl-theme">
-    
-    <div class="product">
-        <div class="top-product">
-            <div class="item">
-                <img src="/assets/img/suit15.jpg">
-                <div class="sale">sale</div>
-             </div>
-    
-             <ul class="item-action">
-                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
-                <li><i class="icon fas fa-eye"></i>
-                </li>
-                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
-                
-             </ul>
-    
-    
-        </div>
-    
-        <div class="product-container">
-            <a class="prodect-vendor">
-                Robert's Store
-            </a>
-    
-            <div class="product-content">
-                
-                 <p>$670.2</p>
-                 <del>$567.8</del>
-                 <small>18% off</small>
+
+
+
+            <div class="deal-content d-flex">
+                <div class="owl-carousel owl-theme">
+
+                    <div class="product">
+                        <div class="top-product">
+                            <div class="item">
+                                <img src="/assets/img/suit15.jpg">
+                                <div class="sale">sale</div>
+                            </div>
+
+                            <ul class="item-action">
+                                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
+                                <li><i class="icon fas fa-eye"></i>
+                                </li>
+                                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
+
+                            </ul>
+
+
+                        </div>
+
+                        <div class="product-container">
+                            <a class="prodect-vendor">
+                                Robert's Store
+                            </a>
+
+                            <div class="product-content">
+
+                                <p>$670.2</p>
+                                <del>$567.8</del>
+                                <small>18% off</small>
+                            </div>
+
+                            <p class="last-content">The Ultimate Slim Fit Suit</p>
+
+                            <div class="product-rating mt-2">
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star last"></span>
+                            </div>
+                            <p class="mt-2">Sold: 122</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="product">
+                        <div class="top-product">
+                            <div class="item">
+                                <img src="/assets/img/suit19.jpg">
+                                <div class="sale">sale</div>
+                            </div>
+
+                            <ul class="item-action">
+                                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
+                                <li><i class="icon fas fa-eye"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
+
+                            </ul>
+
+
+                        </div>
+
+
+                        <div class="product-container">
+                            <a class="prodect-vendor">
+                                Robert's Store
+                            </a>
+
+                            <div class="product-content">
+
+                                <p>$670.2</p>
+                                <del>$567.8</del>
+                                <small>18% off</small>
+                            </div>
+
+                            <p class="last-content">Slim Fit Sharkskin Suit</p>
+
+                            <div class="product-rating mt-2">
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star last"></span>
+                            </div>
+                            <p class="mt-2">Sold: 150</p>
+                        </div>
+                    </div>
+
+
+                    <div class="product">
+                        <div class="top-product">
+                            <div class="item">
+                                <img src="/assets/img/suit18.jpg">
+                                <div class="sale">sale</div>
+                            </div>
+
+                            <ul class="item-action">
+                                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
+                                <li><i class="icon fas fa-eye"></i>
+                                </li>
+                                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
+
+                            </ul>
+
+
+                        </div>
+
+
+                        <div class="product-container">
+                            <a class="prodect-vendor">
+                                Robert's Store
+                            </a>
+
+                            <div class="product-content">
+
+                                <p>$670.2</p>
+                                <del>$567.8</del>
+                                <small>18% off</small>
+                            </div>
+
+                            <p class="last-content">The Ultimate Slim Fit Suit</p>
+
+                            <div class="product-rating mt-2">
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star last"></span>
+                            </div>
+                            <p class="mt-2">Sold: 66</p>
+                        </div>
+                    </div>
+
+
+                    <div class="product">
+                        <div class="top-product">
+                            <div class="item">
+                                <img src="/assets/img/suit17.jpg">
+                                <div class="sale">sale</div>
+                            </div>
+
+                            <ul class="item-action">
+                                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
+                                <li><i class="icon fas fa-eye"></i>
+                                </li>
+                                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
+
+                            </ul>
+
+
+                        </div>
+
+
+                        <div class="product-container">
+                            <a class="prodect-vendor">
+                                Robert's Store
+                            </a>
+
+                            <div class="product-content">
+
+                                <p>$670.2</p>
+                                <del>$567.8</del>
+                                <small>18% off</small>
+                            </div>
+
+                            <p class="last-content">Skinny Fit Suit</p>
+
+                            <div class="product-rating mt-2">
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star last"></span>
+                            </div>
+                            <p class="mt-2">Sold: 90</p>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="top-product">
+                            <div class="item">
+                                <img src="/assets/img/suit16.jpg">
+                                <div class="sale">sale</div>
+                            </div>
+
+                            <ul class="item-action">
+                                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
+                                <li><i class="icon fas fa-eye"></i>
+                                </li>
+                                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
+
+                            </ul>
+
+
+                        </div>
+
+
+                        <div class="product-container">
+                            <a class="prodect-vendor">
+                                Robert's Store
+                            </a>
+
+                            <div class="product-content">
+
+                                <p>$670.2</p>
+                                <del>$567.8</del>
+                                <small>18% off</small>
+                            </div>
+
+                            <p class="last-content">Slim Fit Pure Wool Tuxedo</p>
+
+                            <div class="product-rating mt-2">
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star last"></span>
+                                <span class="fa fa-star last"></span>
+                            </div>
+                            <p class="mt-2">Sold: 100</p>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="top-product">
+                            <div class="item">
+                                <img src="/assets/img/suit21.jpg">
+                                <div class="sale">sale</div>
+                            </div>
+
+                            <ul class="item-action">
+                                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
+                                <li><i class="icon fas fa-eye"></i>
+                                </li>
+                                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
+
+                            </ul>
+
+
+                        </div>
+
+
+                        <div class="product-container">
+                            <a class="prodect-vendor">
+                                Robert's Store
+                            </a>
+
+                            <div class="product-content">
+
+                                <p>$670.2</p>
+                                <del>$567.8</del>
+                                <small>18% off</small>
+                            </div>
+
+                            <p class="last-content">ReguLar Fit Sharkskin Suit</p>
+
+                            <div class="product-rating mt-2">
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star last"></span>
+                            </div>
+                            <p class="mt-2">Sold: 40</p>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="top-product">
+                            <div class="item">
+                                <img src="/assets/img/suit22.jpg">
+                                <div class="sale">sale</div>
+                            </div>
+
+                            <ul class="item-action">
+                                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
+                                <li><i class="icon fas fa-eye"></i>
+                                </li>
+                                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
+
+                            </ul>
+
+
+                        </div>
+
+                        <div class="product-container">
+                            <a class="prodect-vendor">
+                                Robert's Store
+                            </a>
+
+                            <div class="product-content">
+
+                                <p>$670.2</p>
+                                <del>$567.8</del>
+                                <small>18% off</small>
+                            </div>
+
+                            <p class="last-content">Slim Fit Tuxedo</p>
+
+                            <div class="product-rating mt-2">
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star last"></span>
+                                <span class="fa fa-star last"></span>
+                            </div>
+                            <p class="mt-2">Sold: 70</p>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="top-product">
+                            <div class="item">
+                                <img src="/assets/img/suit23.jpg">
+                                <div class="sale">sale</div>
+                            </div>
+
+                            <ul class="item-action">
+                                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
+                                <li><i class="icon fas fa-eye"></i>
+                                </li>
+                                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
+
+                            </ul>
+
+
+                        </div>
+
+                        <div class="product-container">
+                            <a class="prodect-vendor">
+                                Robert's Store
+                            </a>
+
+                            <div class="product-content">
+
+                                <p>$670.2</p>
+                                <del>$567.8</del>
+                                <small>18% off</small>
+                            </div>
+
+                            <p class="last-content">The Ultimate Slim Fit Suit</p>
+
+                            <div class="product-rating mt-2">
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star last"></span>
+                            </div>
+                            <p class="mt-2">Sold: 50</p>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="top-product">
+                            <div class="item">
+                                <img src="/assets/img/suit24.jpg">
+                                <div class="sale">sale</div>
+                            </div>
+
+                            <ul class="item-action">
+                                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
+                                <li><i class="icon fas fa-eye"></i>
+                                </li>
+                                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
+
+                            </ul>
+
+
+                        </div>
+
+                        <div class="product-container">
+                            <a class="prodect-vendor">
+                                Robert's Store
+                            </a>
+
+                            <div class="product-content">
+
+                                <p>$670.2</p>
+                                <del>$567.8</del>
+                                <small>18% off</small>
+                            </div>
+
+                            <p class="last-content">The Ultimate Slim Fit Suit</p>
+
+                            <div class="product-rating mt-2">
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star last"></span>
+                            </div>
+                            <p class="mt-2">Sold: 100</p>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="top-product">
+                            <div class="item">
+                                <img src="/assets/img/suit25.jpg">
+                                <div class="sale">sale</div>
+                            </div>
+
+                            <ul class="item-action">
+                                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
+                                <li><i class="icon fas fa-eye"></i>
+                                </li>
+                                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
+
+                            </ul>
+
+
+                        </div>
+
+                        <div class="product-container">
+                            <a class="prodect-vendor">
+                                Robert's Store
+                            </a>
+
+                            <div class="product-content">
+
+                                <p>$670.2</p>
+                                <del>$567.8</del>
+                                <small>18% off</small>
+                            </div>
+
+                            <p class="last-content">The Ultimate Slim Fit Suit</p>
+
+                            <div class="product-rating mt-2">
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                            </div>
+                            <p class="mt-2">Sold: 120</p>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="top-product">
+                            <div class="item">
+                                <img src="/assets/img/suit26.jpg">
+                                <div class="sale">sale</div>
+                            </div>
+
+                            <ul class="item-action">
+                                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
+                                <li><i class="icon fas fa-eye"></i>
+                                </li>
+                                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
+
+                            </ul>
+
+
+                        </div>
+
+                        <div class="product-container">
+                            <a class="prodect-vendor">
+                                Robert's Store
+                            </a>
+
+                            <div class="product-content">
+
+                                <p>$670.2</p>
+                                <del>$567.8</del>
+                                <small>18% off</small>
+                            </div>
+
+                            <p class="last-content">The Ultimate Slim Fit Suit</p>
+
+                            <div class="product-rating mt-2">
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                            </div>
+                            <p class="mt-2">Sold: 150</p>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="top-product">
+                            <div class="item">
+                                <img src="/assets/img/suit27.jpg">
+                                <div class="sale">sale</div>
+                            </div>
+
+                            <ul class="item-action">
+                                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
+                                <li><i class="icon fas fa-eye"></i>
+                                </li>
+                                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
+
+                            </ul>
+
+
+                        </div>
+
+                        <div class="product-container">
+                            <a class="prodect-vendor">
+                                Robert's Store
+                            </a>
+
+                            <div class="product-content">
+
+                                <p>$670.2</p>
+                                <del>$567.8</del>
+                                <small>18% off</small>
+                            </div>
+
+                            <p class="last-content">The Ultimate Slim Fit Wool Blend Suit</p>
+
+                            <div class="product-rating mt-2">
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star last"></span>
+                            </div>
+                            <p class="mt-2">Sold: 79</p>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="top-product">
+                            <div class="item">
+                                <img src="/assets/img/suit12.jpg">
+                                <div class="sale">sale</div>
+                            </div>
+
+                            <ul class="item-action">
+                                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
+                                <li><i class="icon fas fa-eye"></i>
+                                </li>
+                                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
+
+                            </ul>
+
+
+                        </div>
+
+                        <div class="product-container">
+                            <a class="prodect-vendor">
+                                Robert's Store
+                            </a>
+
+                            <div class="product-content">
+
+                                <p>$670.2</p>
+                                <del>$567.8</del>
+                                <small>18% off</small>
+                            </div>
+
+                            <p class="last-content">The Ultimate Slim Fit Suit</p>
+
+                            <div class="product-rating mt-2">
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star ;last"></span>
+                                <span class="fa fa-star last"></span>
+                            </div>
+                            <p class="mt-2">Sold: 80</p>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="top-product">
+                            <div class="item">
+                                <img src="/assets/img/suit13.jpg">
+                                <div class="sale">sale</div>
+                            </div>
+
+                            <ul class="item-action">
+                                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
+                                <li><i class="icon fas fa-eye"></i>
+                                </li>
+                                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
+
+                            </ul>
+
+
+                        </div>
+
+                        <div class="product-container">
+                            <a class="prodect-vendor">
+                                Robert's Store
+                            </a>
+
+                            <div class="product-content">
+
+                                <p>$670.2</p>
+                                <del>$567.8</del>
+                                <small>18% off</small>
+                            </div>
+
+                            <p class="last-content">The Ultimate Slim Fit Suit</p>
+
+                            <div class="product-rating mt-2">
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star last"></span>
+                                <span class="fa fa-star last"></span>
+                            </div>
+                            <p class="mt-2">Sold: 79</p>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="top-product">
+                            <div class="item">
+                                <img src="/assets/img/suit14.jpg">
+                                <div class="sale">sale</div>
+                            </div>
+
+                            <ul class="item-action">
+                                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
+                                <li><i class="icon fas fa-eye"></i>
+                                </li>
+                                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
+
+                            </ul>
+
+
+                        </div>
+
+                        <div class="product-container">
+                            <a class="prodect-vendor">
+                                Robert's Store
+                            </a>
+
+                            <div class="product-content">
+
+                                <p>$670.2</p>
+                                <del>$567.8</del>
+                                <small>18% off</small>
+                            </div>
+
+                            <p class="last-content">The Ultimate Slim Fit Suit</p>
+
+                            <div class="product-rating mt-2">
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                            </div>
+                            <p class="mt-2">Sold: 79</p>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="top-product">
+                            <div class="item">
+                                <img src="/assets/img/suit20.jpg">
+                                <div class="sale">sale</div>
+                            </div>
+
+                            <ul class="item-action">
+                                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
+                                <li><i class="icon fas fa-eye"></i>
+                                </li>
+                                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
+
+                            </ul>
+
+
+                        </div>
+
+
+                        <div class="product-container">
+                            <a class="prodect-vendor">
+                                Robert's Store
+                            </a>
+
+                            <div class="product-content">
+
+                                <p>$670.2</p>
+                                <del>$567.8</del>
+                                <small>18% off</small>
+                            </div>
+
+                            <p class="last-content">The Ultimate Slim Fit Suit</p>
+
+                            <div class="product-rating mt-2">
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star last"></span>
+                            </div>
+                            <p class="mt-2">Sold: 79</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-    
-            <p class="last-content">The Ultimate Slim Fit Suit</p>
-    
-            <div class="product-rating mt-2">
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star last"></span>
-            </div>
-            <p class="mt-2">Sold: 122</p>
         </div>
-    </div>
-        
-            
-    
-    <div class="product">
-        <div class="top-product">
-            <div class="item">
-                <img src="/assets/img/suit19.jpg">
-                <div class="sale">sale</div>
-             </div>
-    
-             <ul class="item-action">
-                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
-                <li><i class="icon fas fa-eye"></i></li>
-                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
-                
-             </ul>
-    
-    
-        </div>
-    
-        
-        <div class="product-container">
-            <a class="prodect-vendor">
-                Robert's Store
-            </a>
-    
-            <div class="product-content">
-                
-                 <p>$670.2</p>
-                 <del>$567.8</del>
-                 <small>18% off</small>
-            </div>
-    
-            <p class="last-content">Slim Fit Sharkskin Suit</p>
-    
-            <div class="product-rating mt-2">
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star last"></span>
-            </div>
-            <p class="mt-2">Sold: 150</p>
-        </div>
-    </div>
-    
-    
-    <div class="product">
-        <div class="top-product">
-            <div class="item">
-                <img src="/assets/img/suit18.jpg">
-                <div class="sale">sale</div>
-             </div>
-    
-             <ul class="item-action">
-                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
-                <li><i class="icon fas fa-eye"></i>
-                </li>
-                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
-                
-             </ul>
-    
-    
-        </div>
-    
-        
-        <div class="product-container">
-            <a class="prodect-vendor">
-                Robert's Store
-            </a>
-    
-            <div class="product-content">
-                
-                 <p>$670.2</p>
-                 <del>$567.8</del>
-                 <small>18% off</small>
-            </div>
-    
-            <p class="last-content">The Ultimate Slim Fit Suit</p>
-    
-            <div class="product-rating mt-2">
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star last"></span>
-            </div>
-            <p class="mt-2">Sold: 66</p>
-        </div>
-    </div>
-    
-    
-    <div class="product">
-        <div class="top-product">
-            <div class="item">
-                <img src="/assets/img/suit17.jpg">
-                <div class="sale">sale</div>
-             </div>
-    
-             <ul class="item-action">
-                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
-                <li><i class="icon fas fa-eye"></i>
-                </li>
-                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
-                
-             </ul>
-    
-    
-        </div>
-    
-        
-        <div class="product-container">
-            <a class="prodect-vendor">
-                Robert's Store
-            </a>
-    
-            <div class="product-content">
-                
-                 <p>$670.2</p>
-                 <del>$567.8</del>
-                 <small>18% off</small>
-            </div>
-    
-            <p class="last-content">Skinny Fit Suit</p>
-    
-            <div class="product-rating mt-2">
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star last"></span>
-            </div>
-            <p class="mt-2">Sold: 90</p>
-        </div>
-    </div>
-    
-    <div class="product">
-        <div class="top-product">
-            <div class="item">
-                <img src="/assets/img/suit16.jpg">
-                <div class="sale">sale</div>
-             </div>
-    
-             <ul class="item-action">
-                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
-                <li><i class="icon fas fa-eye"></i>
-                </li>
-                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
-                
-             </ul>
-    
-    
-        </div>
-    
-        
-        <div class="product-container">
-            <a class="prodect-vendor">
-                Robert's Store
-            </a>
-    
-            <div class="product-content">
-                
-                 <p>$670.2</p>
-                 <del>$567.8</del>
-                 <small>18% off</small>
-            </div>
-    
-            <p class="last-content">Slim Fit Pure Wool Tuxedo</p>
-    
-            <div class="product-rating mt-2">
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star last"></span>
-    <span class="fa fa-star last"></span>
-            </div>
-            <p class="mt-2">Sold: 100</p>
-        </div>
-    </div>
-    
-    <div class="product">
-        <div class="top-product">
-            <div class="item">
-                <img src="/assets/img/suit21.jpg">
-                <div class="sale">sale</div>
-             </div>
-    
-             <ul class="item-action">
-                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
-                <li><i class="icon fas fa-eye"></i>
-                </li>
-                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
-                
-             </ul>
-    
-    
-        </div>
-    
-        
-        <div class="product-container">
-            <a class="prodect-vendor">
-                Robert's Store
-            </a>
-    
-            <div class="product-content">
-                
-                 <p>$670.2</p>
-                 <del>$567.8</del>
-                 <small>18% off</small>
-            </div>
-    
-            <p class="last-content">ReguLar Fit Sharkskin Suit</p>
-    
-            <div class="product-rating mt-2">
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star last"></span>
-            </div>
-            <p class="mt-2">Sold: 40</p>
-        </div>
-    </div>
-    
-    <div class="product">
-        <div class="top-product">
-            <div class="item">
-                <img src="/assets/img/suit22.jpg">
-                <div class="sale">sale</div>
-             </div>
-    
-             <ul class="item-action">
-                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
-                <li><i class="icon fas fa-eye"></i>
-                </li>
-                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
-                
-             </ul>
-    
-    
-        </div>
-        
-        <div class="product-container">
-            <a class="prodect-vendor">
-                Robert's Store
-            </a>
-    
-            <div class="product-content">
-                
-                 <p>$670.2</p>
-                 <del>$567.8</del>
-                 <small>18% off</small>
-            </div>
-    
-            <p class="last-content">Slim Fit Tuxedo</p>
-    
-            <div class="product-rating mt-2">
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star last"></span>
-    <span class="fa fa-star last"></span>
-            </div>
-            <p class="mt-2">Sold: 70</p>
-        </div>
-    </div>
-    
-    <div class="product">
-        <div class="top-product">
-            <div class="item">
-                <img src="/assets/img/suit23.jpg">
-                <div class="sale">sale</div>
-             </div>
-    
-             <ul class="item-action">
-                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
-                <li><i class="icon fas fa-eye"></i>
-                </li>
-                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
-                
-             </ul>
-    
-    
-        </div>
-        
-        <div class="product-container">
-            <a class="prodect-vendor">
-                Robert's Store
-            </a>
-    
-            <div class="product-content">
-                
-                 <p>$670.2</p>
-                 <del>$567.8</del>
-                 <small>18% off</small>
-            </div>
-    
-            <p class="last-content">The Ultimate Slim Fit Suit</p>
-    
-            <div class="product-rating mt-2">
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star last"></span>
-            </div>
-            <p class="mt-2">Sold: 50</p>
-        </div>
-    </div>
-    
-    <div class="product">
-        <div class="top-product">
-            <div class="item">
-                <img src="/assets/img/suit24.jpg">
-                <div class="sale">sale</div>
-             </div>
-    
-             <ul class="item-action">
-                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
-                <li><i class="icon fas fa-eye"></i>
-                </li>
-                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
-                
-             </ul>
-    
-    
-        </div>
-        
-        <div class="product-container">
-            <a class="prodect-vendor">
-                Robert's Store
-            </a>
-    
-            <div class="product-content">
-                
-                 <p>$670.2</p>
-                 <del>$567.8</del>
-                 <small>18% off</small>
-            </div>
-    
-            <p class="last-content">The Ultimate Slim Fit Suit</p>
-    
-            <div class="product-rating mt-2">
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star last"></span>
-            </div>
-            <p class="mt-2">Sold: 100</p>
-        </div>
-    </div>
-    
-    <div class="product">
-        <div class="top-product">
-            <div class="item">
-                <img src="/assets/img/suit25.jpg">
-                <div class="sale">sale</div>
-             </div>
-    
-             <ul class="item-action">
-                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
-                <li><i class="icon fas fa-eye"></i>
-                </li>
-                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
-                
-             </ul>
-    
-    
-        </div>
-        
-        <div class="product-container">
-            <a class="prodect-vendor">
-                Robert's Store
-            </a>
-    
-            <div class="product-content">
-                
-                 <p>$670.2</p>
-                 <del>$567.8</del>
-                 <small>18% off</small>
-            </div>
-    
-            <p class="last-content">The Ultimate Slim Fit Suit</p>
-    
-            <div class="product-rating mt-2">
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-            </div>
-            <p class="mt-2">Sold: 120</p>
-        </div>
-    </div>
-    
-    <div class="product">
-        <div class="top-product">
-            <div class="item">
-                <img src="/assets/img/suit26.jpg">
-                <div class="sale">sale</div>
-             </div>
-    
-             <ul class="item-action">
-                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
-                <li><i class="icon fas fa-eye"></i>
-                </li>
-                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
-                
-             </ul>
-    
-    
-        </div>
-        
-        <div class="product-container">
-            <a class="prodect-vendor">
-                Robert's Store
-            </a>
-    
-            <div class="product-content">
-                
-                 <p>$670.2</p>
-                 <del>$567.8</del>
-                 <small>18% off</small>
-            </div>
-    
-            <p class="last-content">The Ultimate Slim Fit Suit</p>
-    
-            <div class="product-rating mt-2">
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-            </div>
-            <p class="mt-2">Sold: 150</p>
-        </div>
-    </div>
-    
-    <div class="product">
-        <div class="top-product">
-            <div class="item">
-                <img src="/assets/img/suit27.jpg">
-                <div class="sale">sale</div>
-             </div>
-    
-             <ul class="item-action">
-                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
-                <li><i class="icon fas fa-eye"></i>
-                </li>
-                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
-                
-             </ul>
-    
-    
-        </div>
-        
-        <div class="product-container">
-            <a class="prodect-vendor">
-                Robert's Store
-            </a>
-    
-            <div class="product-content">
-                
-                 <p>$670.2</p>
-                 <del>$567.8</del>
-                 <small>18% off</small>
-            </div>
-    
-            <p class="last-content">The Ultimate Slim Fit Wool Blend Suit</p>
-    
-            <div class="product-rating mt-2">
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star last"></span>
-            </div>
-            <p class="mt-2">Sold: 79</p>
-        </div>
-    </div>
-    
-    <div class="product">
-        <div class="top-product">
-            <div class="item">
-                <img src="/assets/img/suit12.jpg">
-                <div class="sale">sale</div>
-             </div>
-    
-             <ul class="item-action">
-                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
-                <li><i class="icon fas fa-eye"></i>
-                </li>
-                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
-                
-             </ul>
-    
-    
-        </div>
-        
-        <div class="product-container">
-            <a class="prodect-vendor">
-                Robert's Store
-            </a>
-    
-            <div class="product-content">
-                
-                 <p>$670.2</p>
-                 <del>$567.8</del>
-                 <small>18% off</small>
-            </div>
-    
-            <p class="last-content">The Ultimate Slim Fit Suit</p>
-    
-            <div class="product-rating mt-2">
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star ;last"></span>
-    <span class="fa fa-star last"></span>
-            </div>
-            <p class="mt-2">Sold: 80</p>
-        </div>
-    </div>
-    
-    <div class="product">
-        <div class="top-product">
-            <div class="item">
-                <img src="/assets/img/suit13.jpg">
-                <div class="sale">sale</div>
-             </div>
-    
-             <ul class="item-action">
-                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
-                <li><i class="icon fas fa-eye"></i>
-                </li>
-                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
-                
-             </ul>
-    
-    
-        </div>
-        
-        <div class="product-container">
-            <a class="prodect-vendor">
-                Robert's Store
-            </a>
-    
-            <div class="product-content">
-                
-                 <p>$670.2</p>
-                 <del>$567.8</del>
-                 <small>18% off</small>
-            </div>
-    
-            <p class="last-content">The Ultimate Slim Fit Suit</p>
-    
-            <div class="product-rating mt-2">
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star last"></span>
-    <span class="fa fa-star last"></span>
-            </div>
-            <p class="mt-2">Sold: 79</p>
-        </div>
-    </div>
-    
-    <div class="product">
-        <div class="top-product">
-            <div class="item">
-                <img src="/assets/img/suit14.jpg">
-                <div class="sale">sale</div>
-             </div>
-    
-             <ul class="item-action">
-                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
-                <li><i class="icon fas fa-eye"></i>
-                </li>
-                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
-                
-             </ul>
-    
-    
-        </div>
-        
-        <div class="product-container">
-            <a class="prodect-vendor">
-                Robert's Store
-            </a>
-    
-            <div class="product-content">
-                
-                 <p>$670.2</p>
-                 <del>$567.8</del>
-                 <small>18% off</small>
-            </div>
-    
-            <p class="last-content">The Ultimate Slim Fit Suit</p>
-    
-            <div class="product-rating mt-2">
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-            </div>
-            <p class="mt-2">Sold: 79</p>
-        </div>
-    </div>
-    
-    <div class="product">
-        <div class="top-product">
-            <div class="item">
-                <img src="/assets/img/suit20.jpg">
-                <div class="sale">sale</div>
-             </div>
-    
-             <ul class="item-action">
-                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
-                <li><i class="icon fas fa-eye"></i>
-                </li>
-                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
-                
-             </ul>
-    
-    
-        </div>
-    
-        
-        <div class="product-container">
-            <a class="prodect-vendor">
-                Robert's Store
-            </a>
-    
-            <div class="product-content">
-                
-                 <p>$670.2</p>
-                 <del>$567.8</del>
-                 <small>18% off</small>
-            </div>
-    
-            <p class="last-content">The Ultimate Slim Fit Suit</p>
-    
-            <div class="product-rating mt-2">
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star "></span>
-    <span class="fa fa-star last"></span>
-            </div>
-            <p class="mt-2">Sold: 79</p>
-        </div>
-    </div>
-    </div>
-    
-        </div>
-    </div>
-    
+
     </section>
-    
+
+
+
 
 
     <section class="brands-slider">
@@ -838,9 +954,9 @@
 
 
     <section class="sectionTwo">
-        
+
         <div class="title">
-            <h3>Top Categories Of The Month</h3> 
+            <h3>Top Categories Of The Month</h3>
         </div>
 
         <div class="catagoryBlocks row">
@@ -885,7 +1001,7 @@
                 </div>
             </div>
         </div>
-        
+
 
     </section>
 
@@ -896,26 +1012,26 @@
 
         <nav class="navbar navbar-expand-sm bg-body-tertiary">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"> Hot New Arrivals </a>
-              <div class="navLinks collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Technologies</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Electronic</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Furnitures</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Clothing & Apparel</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Health & Beauty</a>
-                  </li>
-                </ul>
-              </div>
+                <a class="navbar-brand" href="#"> Hot New Arrivals </a>
+                <div class="navLinks collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Technologies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Electronic</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Furnitures</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Clothing & Apparel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Health & Beauty</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
@@ -929,7 +1045,7 @@
                 </div>
                 <div class="blockInfo">
                     <a>Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
-                    
+
                     <div class="rating">
                         <i class="fa-solid fa-star checked"></i>
                         <i class="fa-solid fa-star checked"></i>
@@ -937,7 +1053,7 @@
                         <i class="fa-solid fa-star checked"></i>
                         <i class="fa-regular fa-star"></i>
                     </div>
-                    
+
                     <p>$150.00</p>
                 </div>
 
@@ -1011,13 +1127,14 @@
 
 
 
-    <footer class="footer"> 
+    <footer class="footer">
         <div class="container">
             <div class="row d-flex">
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-footer">
                         <h3> MENA </h3>
-                        <P> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</P>
+                        <P> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</P>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -1036,7 +1153,7 @@
                             <li>
                                 <a href="#">Contact Us</a>
                             </li>
-                        </ul> 
+                        </ul>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -1055,7 +1172,7 @@
                             <li>
                                 <a href="#">Contact Us</a>
                             </li>
-                        </ul> 
+                        </ul>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -1068,25 +1185,25 @@
                             </li>
                             <li>
                                 <i class="fa-solid fa-phone-flip"></i>
-                                Call Us: 
-                                <a href="#">(+123) 456-7898</a> 
+                                Call Us:
+                                <a href="#">(+123) 456-7898</a>
                             </li>
                             <li>
                                 <i class="fa-regular fa-envelope"></i>
-                                Email Us: 
-                                <a href="#"> mena@gmail.com </a> 
+                                Email Us:
+                                <a href="#"> mena@gmail.com </a>
                             </li>
                             <li>
                                 <i class="fa-solid fa-fax"></i>
-                                Fax: 
+                                Fax:
                                 <a href="#"> +123456789 </a>
                             </li>
-                        </ul> 
+                        </ul>
                     </div>
                 </div>
-               
+
             </div>
-        </div>    
+        </div>
         <div class="copyright">
             <div class="container">
                 <div class="row align-items-center w-100 d-flex">
@@ -1094,25 +1211,32 @@
                         <span> Copyright © 2023 MENA. All Rights Reserved </span>
                     </div>
                     <div class="col-lg-6 col-md-6 text-end">
-                        <img src="assets/img/payment.png"  alt="payment img"/>
+                        <img src="assets/img/payment.png" alt="payment img" />
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-    <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+        </script>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js">
     </script>
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js">
-    </script> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js">
-    </script> 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </script>
 
     <script src="js/carousel.js"></script>
-    
+
 </body>
+
 </html>
