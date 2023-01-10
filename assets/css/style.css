@@ -131,7 +131,7 @@ a{
 }
 
 .sectionTwo .catagoryBlocks .block {
-    margin: 0 15px;
+    margin: 0 15px 20px;
     padding: 25px;
     border: 0.5px solid grey;
     text-align: center;
@@ -140,6 +140,7 @@ a{
 .sectionTwo .catagoryBlocks .block .blockImg {
     width: 200px;
     height: 200px;
+    margin: auto;
 }
 
 .sectionTwo .catagoryBlocks .block .blockImg img {
