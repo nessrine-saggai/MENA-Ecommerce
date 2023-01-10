@@ -366,6 +366,8 @@ header .banner-paragraph , header .title,  header .sub-title ,.banner-content{
 
 /* --------------------------------start section 1---------------------------- */
 
+
+
 .deal-of-the-day .deal-header{
     justify-content: start;
     border-bottom: 1px solid #ccc;
@@ -384,7 +386,7 @@ header .banner-paragraph , header .title,  header .sub-title ,.banner-content{
     padding: 11px 20px;
     line-height: 1;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: bolder;
     margin-right: 60px;
 
 }
