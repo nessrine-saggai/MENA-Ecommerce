@@ -186,15 +186,16 @@ header a:hover{
 }
 
 
+
 @media (max-width: 519px){
-.deal-content{
+
+.product-carousel{
     justify-content: center;
-}
-.product{
-    margin-left: 100px;
     text-align: center;
 }
+
 }
+
 
 @media (min-width: 700px){
     .container{
@@ -212,28 +213,6 @@ width: 100%;
 .banner-slide {
     height: 680px;
 }}
-/* @media (min-width: 1200px){
-.container{
-    max-width: 1140px;
-}
-}
-
-@media (min-width: 992px){
-.container{
-    max-width: 960px;
-}
-}
-
-@media (min-width: 768px){
-.container{
-    max-width: 720px;
-}}
-
-@media (min-width: 576px){
-.container{
-    max-width: 540px;
-}}
- */
 
 .banner-slide{
 width: 100%;
@@ -278,44 +257,14 @@ header .banner-paragraph , header .title,  header .sub-title ,.banner-content{
 
 
 .deal-of-the-day .deal-header{
-    justify-content: start;
     border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
 }
 
-.deal-of-the-day .deal-header .cd-left-block{
-    font-family: "Work Sans",sans-serif;
-    font-weight: 400;
-    width: 80%;
-    
-}
-
-.deal-of-the-day .deal-header .cd-left-block h3{
-    margin-bottom: 0;
-    padding: 11px 20px;
-    line-height: 1;
-    font-size: 24px;
-    font-weight: bolder;
-    margin-right: 60px;
-
-}
 
 
-
-.deal-header .countdown-deal{
-    flex-direction: row;
-    justify-content: space-between;
+.countdown-deal{
     width: 100%;
-}
-.deal-header a{
-    margin-bottom: 0;
-    padding: 7px 2px;
-    display: inline-block;
-    color: #000;
-    border-bottom: 1px solid #000;
-    cursor: pointer;
-    text-align: center;
-    width: 20%;
 }
 
 .deal-content{
@@ -337,6 +286,8 @@ header .banner-paragraph , header .title,  header .sub-title ,.banner-content{
     position: relative;
     overflow: hidden;
     border-bottom: 2px solid gray;
+    max-width: 250px;
+max-height: 250px;
 }
 
 .item img{
