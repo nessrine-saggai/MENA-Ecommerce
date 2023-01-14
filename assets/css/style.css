@@ -504,7 +504,7 @@ overflow: hidden;
 }
 
 .sectionTwo .catagoryBlocks .block:hover {
-    border: 0.5px solid yellow;
+    border: 0.5px solid purple;
     cursor: pointer;
 }
 
@@ -513,7 +513,9 @@ overflow: hidden;
 }
 
 .sectionTwo .catagoryBlocks .block:hover a {
-    color: aqua;
+    color: purple;
+    font-weight: 700;
+
 }
 
 
@@ -563,13 +565,14 @@ overflow: hidden;
     padding: 5px;
 }
 
-.sectionThree .newArrivals .ratingBlock .blockInfo a {
-    color: aqua;
+.sectionThree .newArrivals .ratingBlock .blockInfo  {
+    color:black;
 }
 
-.sectionThree .newArrivals .ratingBlock .blockInfo a:hover {
-    color: orange;
+.sectionThree .newArrivals .ratingBlock .blockInfo p:hover {
+    color: purple;
     cursor: pointer;
+    font-weight: 700;
 }
 
 .sectionThree .newArrivals .ratingBlock .blockInfo .rating .checked {
