@@ -9,7 +9,7 @@ body{
 h2{
     text-align: center;
     color: rgb(105, 3, 105);
-    padding: 80px 0 40px;
+    padding: 40px 0 40px;
     font-family: sans-serif;
     font-size: 42px;
     font-weight: 700;
@@ -24,7 +24,9 @@ h4{
 }
 
 /* ================================================ Start navbar ================================================ */
-
+.navbar .container-fluid h2{
+    padding: 0 40px 0 40px;
+}
 .navbar-brand {
     width: 20%;
 }
@@ -658,6 +660,9 @@ a{
 }
 .single-footer ul li i{
     font-size: small;
+}
+.brands-slider .container{
+    padding-top: 0;
 }
 footer .copyright{
     background-color: #f5f2f2;
