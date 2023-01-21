@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MENA</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -15,60 +15,83 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="assets/webfonts/all.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
 
 </head>
 
 <body>
-<!-- start navbar -->
-    <navbar>
-        <div class="nav quick-links bg-light">
-            <a class="nav-link" href="#">Login</a>
-            <span class="nav-link" href="#">|</span>
-            <a class="nav-link" href="#">Signup</a>
-            <span class="nav-link" href="#">|</span>
-            <a class="nav-link" href="#">Products</a>
-            <span class="nav-link" href="#">|</span>
-            <a class="nav-link" href="#"">Contact</a>
-        </div>
 
-        <nav class=" navbar navbar-expand-lg bg-body-tertiary">
+    <header>
+        <nav>
+            <div class="top-header">
+
+                <div class="nav left-side-links">
+                    <a class="nav-link" href="#">Login</a>
+                    <span class="pipe">|</span>
+
+                    <a class="nav-link" href="#">Singup</a>
+
+                    <span class="pipe">|</span>
+                    <a class="nav-link" href="#">Products</a>
+
+                    <span class="pipe">|</span>
+                    <a class="nav-link" href="#">Contact</a>
+                </div>
+
+                <div class="nav right-side-links">
+                    <a class="nav-link" href="#">Blog</a>
+                    <span class="pipe">|</span>
+
+                    <a class="nav-link" href="#">Cart</a>
+                    <span class="pipe">|</span>
+
+                    <div class="select-lang">
+                        <select class="form-select form-select-sm bg-transparent border-0" aria-label=".form-select-sm example">
+                            <option value="1" selected>Eng</option>
+                            <option value="2">Ger</option>
+                            <option value="3">Span</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="navbar navbar-expand-lg bg-body-tertiary">
 
                 <div class="container-fluid">
-                    <h2> MENA </h2>
+
+                    <a class="navbar-brand" href="#">MENA</a>
+
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <div class="navbar-collapse" id="navbarNavDropdown">
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
 
-                        <ul class="navbar-nav nav-menu">
+                        <ul class="navbar-nav">
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="false"
+                                <a class="nav-link dropdown-toggle" href="#" role="button"
                                     aria-expanded="false">HOME</a>
-                                <div class="dropdown-transparent-parent">
-
+                                <div class="dropdownParent">
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Home Style One</a></li>
-                                        <li><a class="dropdown-item" href="#">Home Style Two</a></li>
-                                        <li><a class="dropdown-item" href="#">Home Style Three</a></li>
-                                        <li><a class="dropdown-item" href="#">Home Style Four</a></li>
-                                        <li><a class="dropdown-item" href="#">Home Style Five</a></li>
-                                        <li><a class="dropdown-item" href="#">Home Style Six</a></li>
-                                        <li><a class="dropdown-item" href="#">Home Style Seven</a></li>
+                                        <li><a class="dropdown-item" href="#">Nav Link One</a></li>
+                                        <li><a class="dropdown-item" href="#">Nav Link Two</a></li>
+                                        <li><a class="dropdown-item" href="#">Nav Link Three</a></li>
+                                        <li><a class="dropdown-item" href="#">Nav Link Four</a></li>
+                                        <li><a class="dropdown-item" href="#">Nav Link Five</a></li>
                                     </ul>
                                 </div>
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="false"
+                                <a class="nav-link dropdown-toggle" href="#" role="button"
                                     aria-expanded="false">SHOP</a>
-                                <div class="dropdown-transparent-parent">
-
+                                <div class="dropdownParent">
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="#">Products</a></li>
                                         <li><a class="dropdown-item" href="#">Products Details</a></li>
@@ -77,68 +100,51 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#">GALLERY</a>
+                                <a class="nav-link">GALLERY</a>
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="false"
+                                <a class="nav-link dropdown-toggle" href="#" role="button"
                                     aria-expanded="false">PAGES</a>
-
-                                <div class="dropdown-transparent-parent">
+                                <div class="dropdownParent">
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Gallery</a></li>
-                                        <li><a class="dropdown-item" href="#">Shop</a></li>
-                                        <li><a class="dropdown-item" href="#">Checkout</a></li>
-                                        <li><a class="dropdown-item" href="#">Login</a></li>
-                                        <li><a class="dropdown-item" href="#">Signup</a></li>
-                                        <li><a class="dropdown-item" href="#">Error 404</a></li>
-                                        <li><a class="dropdown-item" href="#">Contact</a></li>
+                                        <li><a class="dropdown-item" href="#">Page One</a></li>
+                                        <li><a class="dropdown-item" href="#">Page Two</a></li>
+                                        <li><a class="dropdown-item" href="#">Page Three</a></li>
+                                        <li><a class="dropdown-item" href="#">Page Four</a></li>
+                                        <li><a class="dropdown-item" href="#">Page Five</a></li>
                                     </ul>
                                 </div>
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                <a class="nav-link dropdown-toggle" href="#" role="button"
                                     aria-expanded="false">BLOG</a>
-                                <div class="dropdown-transparent-parent">
-
+                                <div class="dropdownParent">
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Blog Grid</a></li>
-                                        <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                                        <li><a class="dropdown-item" href="#">Nav link</a></li>
+                                        <li><a class="dropdown-item" href="#">Nav link</a></li>
                                     </ul>
                                 </div>
                             </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">GALLERY</a>
-                            </li>
-
                         </ul>
 
-                        <ul class="nav-side-btns navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">LOGIN</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">|</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">CART <i class="fa-solid fa-bag-shopping"></i></a>
-                            </li>
-                        </ul>
+                        <div class="nav nav-right-side-links">
+                            <a class="nav-link text-dark" href="#">LOGIN</a>
+                            <span class="pipe">|</span>
+                            <a class="nav-link text-dark" href="#">CART<i class="fa-solid fa-bag-shopping"></i></a>
+                        </div>
 
                     </div>
 
                 </div>
 
-        </nav>
-    </navbar>
-<!-- end navbar -->
+            </div>
 
-<!-- start header -->
-   <header>
+        </nav>
+
+
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -185,23 +191,25 @@
 
 
     </header>
-<!-- end header -->
-<!-- start section one -->
-    <section class="deal-of-the-day ">
+
+
+    <section class="deal-of-the-day">
         <div class="container">
-            <div class="deal-header ">
-                <div class="countdown-deal ">
+            <div class="deal-header d-flex">
+                <div class="countdown-deal d-flex">
                     <div class="cd-left-block">
-                        <h2>
+                        <h3>
                             Deal of the day
 
-                        </h2>
+                        </h3>
                     </div>
 
 
                 </div>
 
-               
+                <a href="#">
+                    View all
+                </a>
 
             </div>
 
@@ -209,7 +217,7 @@
 
             <div class="deal-content d-flex">
                 <div class="owl-carousel owl-theme">
-        <div class="product-carousel d-flex">
+
                     <div class="product">
                         <div class="top-product">
                             <div class="item">
@@ -252,9 +260,8 @@
                             <p class="mt-2">Sold: 122</p>
                         </div>
                     </div>
-        </div>
 
-                <div class="product-carousel d-flex">
+
 
                     <div class="product">
                         <div class="top-product">
@@ -298,9 +305,8 @@
                             <p class="mt-2">Sold: 150</p>
                         </div>
                     </div>
-                </div>
 
-                <div class="product-carousel d-flex">
+
                     <div class="product">
                         <div class="top-product">
                             <div class="item">
@@ -344,9 +350,7 @@
                             <p class="mt-2">Sold: 66</p>
                         </div>
                     </div>
-                </div>
 
-                <div class="product-carousel d-flex">
 
                     <div class="product">
                         <div class="top-product">
@@ -390,28 +394,25 @@
                             </div>
                             <p class="mt-2">Sold: 90</p>
                         </div>
-                    </div></div>
+                    </div>
+
+                    <div class="product">
+                        <div class="top-product">
+                            <div class="item">
+                                <img src="assets/img/suit16.jpg">
+                                <div class="sale">sale</div>
+                            </div>
+
+                            <ul class="item-action">
+                                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
+                                <li><i class="icon fas fa-eye"></i>
+                                </li>
+                                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
+
+                            </ul>
 
 
-<div class="product-carousel d-flex">
-
-    <div class="product">
-        <div class="top-product">
-            <div class="item">
-                <img src="assets/img/suit16.jpg">
-                <div class="sale">sale</div>
-            </div>
-
-            <ul class="item-action">
-                <li><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
-                <li><i class="icon fas fa-eye"></i>
-                </li>
-                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
-
-            </ul>
-
-
-        </div>
+                        </div>
 
 
                         <div class="product-container">
@@ -437,10 +438,8 @@
                             </div>
                             <p class="mt-2">Sold: 100</p>
                         </div>
-                    </div></div>
+                    </div>
 
-
-                    <div class="product-carousel d-flex">
                     <div class="product">
                         <div class="top-product">
                             <div class="item">
@@ -483,8 +482,7 @@
                             </div>
                             <p class="mt-2">Sold: 40</p>
                         </div>
-                    </div></div>
-                    <div class="product-carousel d-flex">
+                    </div>
 
                     <div class="product">
                         <div class="top-product">
@@ -527,9 +525,8 @@
                             </div>
                             <p class="mt-2">Sold: 70</p>
                         </div>
-                    </div></div>
+                    </div>
 
-                    <div class="product-carousel d-flex">
                     <div class="product">
                         <div class="top-product">
                             <div class="item">
@@ -571,9 +568,8 @@
                             </div>
                             <p class="mt-2">Sold: 50</p>
                         </div>
-                    </div></div>
+                    </div>
 
-                    <div class="product-carousel d-flex">
                     <div class="product">
                         <div class="top-product">
                             <div class="item">
@@ -615,9 +611,8 @@
                             </div>
                             <p class="mt-2">Sold: 100</p>
                         </div>
-                    </div></div>
+                    </div>
 
-                    <div class="product-carousel d-flex">
                     <div class="product">
                         <div class="top-product">
                             <div class="item">
@@ -659,9 +654,8 @@
                             </div>
                             <p class="mt-2">Sold: 120</p>
                         </div>
-                    </div></div>
+                    </div>
 
-                    <div class="product-carousel d-flex">
                     <div class="product">
                         <div class="top-product">
                             <div class="item">
@@ -703,9 +697,8 @@
                             </div>
                             <p class="mt-2">Sold: 150</p>
                         </div>
-                    </div></div>
+                    </div>
 
-                    <div class="product-carousel d-flex">
                     <div class="product">
                         <div class="top-product">
                             <div class="item">
@@ -747,9 +740,8 @@
                             </div>
                             <p class="mt-2">Sold: 79</p>
                         </div>
-                    </div></div>
+                    </div>
 
-                    <div class="product-carousel d-flex">
                     <div class="product">
                         <div class="top-product">
                             <div class="item">
@@ -791,9 +783,8 @@
                             </div>
                             <p class="mt-2">Sold: 80</p>
                         </div>
-                    </div></div>
+                    </div>
 
-                    <div class="product-carousel d-flex">
                     <div class="product">
                         <div class="top-product">
                             <div class="item">
@@ -835,9 +826,8 @@
                             </div>
                             <p class="mt-2">Sold: 79</p>
                         </div>
-                    </div></div>
+                    </div>
 
-                    <div class="product-carousel d-flex">
                     <div class="product">
                         <div class="top-product">
                             <div class="item">
@@ -880,8 +870,6 @@
                             <p class="mt-2">Sold: 79</p>
                         </div>
                     </div>
-                    </div>
-                    <div class="product-carousel d-flex">
 
                     <div class="product">
                         <div class="top-product">
@@ -925,7 +913,7 @@
                             </div>
                             <p class="mt-2">Sold: 79</p>
                         </div>
-                    </div></div>
+                    </div>
                 </div>
 
             </div>
@@ -933,13 +921,22 @@
 
     </section>
 
-<!-- end section one -->
 
-<!-- start section two -->
+
+
+
+
+
+
+
+
+
+
+
     <section class="sectionTwo">
 
         <div class="title">
-            <h2>Top Categories Of The Month</h2>
+            <h3>Top Categories Of The Month</h3>
         </div>
 
         <div class="catagoryBlocks row">
@@ -950,56 +947,13 @@
                 <div class="blockLink">
                     <a> Formal </a>
                 </div>
-                <div class="product-container">
-                    <a class="prodect-vendor">
-                        MENA's Store
-                    </a>
-
-                    <div class="product-content">
-
-                        <p>$679.2</p>
-                        <del>$780.8</del>
-                        <small>18% off</small>
-                    </div>
-
-                    <div class="product-rating mt-2">
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star last"></span>
-                    </div>
-                    <p class="mt-2">Sold: 72</p>
-                </div>
             </div>
-            
             <div class="block col">
                 <div class="blockImg">
                     <img src="assets/img/topCatagpries/shorts.jpg">
                 </div>
                 <div class="blockLink">
                     <a> Casual </a>
-                </div>
-                <div class="product-container">
-                    <a class="prodect-vendor">
-                        MENA's Store
-                    </a>
-
-                    <div class="product-content">
-
-                        <p>$879.2</p>
-                        <del>$677.8</del>
-                        <small>18% off</small>
-                    </div>
-
-                    <div class="product-rating mt-2">
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star last"></span>
-                    </div>
-                    <p class="mt-2">Sold: 82</p>
                 </div>
             </div>
             <div class="block col">
@@ -1009,27 +963,6 @@
                 <div class="blockLink">
                     <a> Shoes </a>
                 </div>
-                <div class="product-container">
-                    <a class="prodect-vendor">
-                        MENA's Store
-                    </a>
-
-                    <div class="product-content">
-
-                        <p>$679.2</p>
-                        <del>$456.8</del>
-                        <small>18% off</small>
-                    </div>
-
-                    <div class="product-rating mt-2">
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star last"></span>
-                    </div>
-                    <p class="mt-2">Sold: 152</p>
-                </div>
             </div>
             <div class="block col">
                 <div class="blockImg">
@@ -1037,27 +970,6 @@
                 </div>
                 <div class="blockLink">
                     <a> Accessories </a>
-                </div>
-                <div class="product-container">
-                    <a class="prodect-vendor">
-                        MENA's Store
-                    </a>
-
-                    <div class="product-content">
-
-                        <p>$340.2</p>
-                        <del>$467.8</del>
-                        <small>18% off</small>
-                    </div>
-
-                    <div class="product-rating mt-2">
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star last"></span>
-                    </div>
-                    <p class="mt-2">Sold: 862</p>
                 </div>
             </div>
             <div class="block col">
@@ -1067,122 +979,14 @@
                 <div class="blockLink">
                     <a> Watches </a>
                 </div>
-                <div class="product-container">
-                    <a class="prodect-vendor">
-                        MENA's Store
-                    </a>
-
-                    <div class="product-content">
-
-                        <p>$29.32</p>
-                        <del>$57.8</del>
-                        <small>18% off</small>
-                    </div>
-
-                    <div class="product-rating mt-2">
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star last"></span>
-                    </div>
-                    <p class="mt-2">Sold: 100</p>
-                </div>
-            </div>
-            <div class="block col">
-                <div class="blockImg">
-                    <img src="assets/img/topCatagpries/duffle-bug.jpg">
-                </div>
-                <div class="blockLink">
-                    <a> Duffle bug </a>
-                </div>
-                <div class="product-container">
-                    <a class="prodect-vendor">
-                        MENA's Store
-                    </a>
-
-                    <div class="product-content">
-
-                        <p>$70.2</p>
-                        <del>$97.8</del>
-                        <small>18% off</small>
-                    </div>
-
-                    <div class="product-rating mt-2">
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star last"></span>
-                    </div>
-                    <p class="mt-2">Sold: 112</p>
-                </div>
-            </div>
-            <div class="block col">
-                <div class="blockImg">
-                    <img src="assets/img/topCatagpries/1_33e3c32a03.jpg">
-                </div>
-                <div class="blockLink">
-                    <a> Shirt </a>
-                </div>
-                <div class="product-container">
-                    <a class="prodect-vendor">
-                        MENA's Store
-                    </a>
-
-                    <div class="product-content">
-
-                        <p>$160.2</p>
-                        <del>$277.8</del>
-                        <small>18% off</small>
-                    </div>
-
-                    <div class="product-rating mt-2">
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star last"></span>
-                    </div>
-                    <p class="mt-2">Sold: 122</p>
-                </div>
-            </div>
-            <div class="block col">
-                <div class="blockImg">
-                    <img src="assets/img/topCatagpries/pants.jpg">
-                </div>
-                <div class="blockLink">
-                    <a> Pants </a>
-                </div>
-                <div class="product-container">
-                    <a class="prodect-vendor">
-                        MENA's Store
-                    </a>
-
-                    <div class="product-content">
-
-                        <p>$45.9</p>
-                        <del>$67.8</del>
-                        <small>18% off</small>
-                    </div>
-
-                    <div class="product-rating mt-2">
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star last"></span>
-                    </div>
-                    <p class="mt-2">Sold: 45</p>
-                </div>
             </div>
         </div>
 
 
     </section>
-<!-- end section two -->
 
-<!-- start section three -->
+
+
     <section class="sectionThree">
 
 
@@ -1220,7 +1024,7 @@
                     <img src="assets/img/newArrivals/t-shirt.jpg">
                 </div>
                 <div class="blockInfo">
-                    <p>Sleeve Linen Blend Caro Pane Shirt </p>
+                    <a>Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
 
                     <div class="rating">
                         <i class="fa-solid fa-star checked"></i>
@@ -1237,10 +1041,10 @@
             <div class="ratingBlock col">
 
                 <div class="blockImg">
-                    <img src="assets/img/newArrivals/wirless-speaker.jpg">
+                    <img src="assets/img/newArrivals/t-shirt.jpg">
                 </div>
                 <div class="blockInfo">
-                    <p>Marshall Kilburn Portable Wireless Speaker</p>
+                    <a>Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
 
                     <div class="rating">
                         <i class="fa-solid fa-star checked"></i>
@@ -1250,17 +1054,17 @@
                         <i class="fa-regular fa-star"></i>
                     </div>
 
-                    <p>$42.99</p>
+                    <p>$150.00</p>
                 </div>
 
             </div>
             <div class="ratingBlock col">
 
                 <div class="blockImg">
-                    <img src="assets/img/newArrivals/wirlessjpg.jpg">
+                    <img src="assets/img/newArrivals/t-shirt.jpg">
                 </div>
                 <div class="blockInfo">
-                    <p>Sound Intone I65 Earphone White Version </p>
+                    <a>Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
 
                     <div class="rating">
                         <i class="fa-solid fa-star checked"></i>
@@ -1270,17 +1074,17 @@
                         <i class="fa-regular fa-star"></i>
                     </div>
 
-                    <p>$106/96</p>
+                    <p>$150.00</p>
                 </div>
 
             </div>
             <div class="ratingBlock col">
 
                 <div class="blockImg">
-                    <img src="assets/img/newArrivals/iphone6.jpg">
+                    <img src="assets/img/newArrivals/t-shirt.jpg">
                 </div>
                 <div class="blockInfo">
-                    <p>Apple iPhone Retina 6s Plus 32GB</p>
+                    <a>Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
 
                     <div class="rating">
                         <i class="fa-solid fa-star checked"></i>
@@ -1290,182 +1094,16 @@
                         <i class="fa-regular fa-star"></i>
                     </div>
 
-                    <p>$640.50</p>
+                    <p>$150.00</p>
                 </div>
 
             </div>
-            <div class="ratingBlock col">
-
-                <div class="blockImg">
-                    <img src="assets/img/newArrivals/book.jpg">
-                </div>
-                <div class="blockInfo">
-                    <p> Grand Slam Indoor Of Show Jumping Novel </p>
-
-                    <div class="rating">
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-
-                    <p>41.99</p>
-                </div>
-
-            </div>
-            <div class="ratingBlock col">
-
-                <div class="blockImg">
-                    <img src="assets/img/newArrivals/iphone6plus.jpg">
-                </div>
-                <div class="blockInfo">
-                    <p> Apple iPhone Retina 6s Plus 64GB </p>
-
-                    <div class="rating">
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-
-                    <p>$1150.00</p>
-                </div>
-
-            </div>
-            <div class="ratingBlock col">
-
-                <div class="blockImg">
-                    <img src="assets/img/newArrivals/duffle-bug.jpg">
-                </div>
-                <div class="blockInfo">
-                    <p> Herschel Leather Duffle Bag In Brown Color </p>
-
-                    <div class="rating">
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-
-                    <p>$125.00</p>
-                </div>
-
-            </div>
-            
-            <div class="ratingBlock col">
-
-                <div class="blockImg">
-                    <img src="assets/img/newArrivals/xbox-controller.jpg">
-                </div>
-                <div class="blockInfo">
-                    <p> Xbox One Wireless Controller Black Color </p>
-
-                    <div class="rating">
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-
-                    <p>$55.00</p>
-                </div>
-
-            </div>
-
-            <div class="ratingBlock col">
-
-                <div class="blockImg">
-                    <img src="assets/img/newArrivals/sofa.jpg">
-                </div>
-                <div class="blockInfo">
-                    <p>Korea Long Sofa Fabric In Blue Navy Color</p>
-
-                    <div class="rating">
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-
-                    <p>$670.99</p>
-                </div>
-
-            </div>
-            <div class="ratingBlock col">
-
-                <div class="blockImg">
-                    <img src="assets/img/newArrivals/CLASSICAL-BACKPACK.jpg">
-                </div>
-                <div class="blockInfo">
-                    <p>Unero Military Classical Backpack</p>
-
-                    <div class="rating">
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-
-                    <p>$42.02</p>
-                </div>
-
-            </div>
-            <div class="ratingBlock col">
-
-                <div class="blockImg">
-                    <img src="assets/img/newArrivals/in-white-sneaker.jpg">
-                </div>
-                <div class="blockInfo">
-                    <p>Paul's Smith Sneaker InWhite Color</p>
-
-                    <div class="rating">
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-
-                    <p>$75.44</p>
-                </div>
-
-            </div>
-            <div class="ratingBlock col">
-
-                <div class="blockImg">
-                    <img src="assets/img/newArrivals/wirless-speaker-white.jpg">
-                </div>
-                <div class="blockInfo">
-                    <p>Beat Spill 2.0 Wireless Speaker-White </p>
-
-                    <div class="rating">
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-solid fa-star checked"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-
-                    <p>$62.99</p>
-                </div>
-
-            </div>
-            
 
         </div>
-        
 
     </section>
-<!-- end section three -->
 
-<!-- start section four -->
-     <section class="brands-slider">
+    <section class="brands-slider">
         <div class="container">
             <h2> Our Brands</h2>
             <div class="partners-logos slider">
@@ -1494,9 +1132,11 @@
 
         </div>
     </section>
-<!-- end section four  -->
 
-<!-- start footer -->
+
+
+
+
     <footer class="footer">
         <div class="container">
             <div class="row d-flex">
@@ -1587,10 +1227,8 @@
             </div>
         </div>
     </footer>
-<!-- end footer -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
-        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
 
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"
