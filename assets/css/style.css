@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -24,55 +26,168 @@ h4{
 }
 
 /* ================================================ Start navbar ================================================ */
-.navbar .container-fluid h2{
-    padding: 0 40px 0 40px;
-}
-.navbar-brand {
-    width: 20%;
+.top-navigation {
+    padding: 0;
+    margin: 0;
 }
 
-.nav-menu {
+.top-navigation .nav-link {
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.top-navigation .nav-link:hover {
+    color: rgb(42, 42, 42);
+}
+
+.top-navigation .quick-links {
     width: 100%;
+    padding: 0 40px;
+    background-color: #F1F1F1;
 }
 
-.nav-side-btns {
-    width: 200px;
+.top-navigation .quick-links .nav-link {
+    font-family: Archivo, sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    margin: 10px 5px;
+}
+
+.top-navigation .quick-links .nav-link,
+.nav-side-btns .nav-item .nav-link {
     display: flex;
-}
-
-.dropdown-menu {
-    top: 47px;
-    padding: 16px 70px 16px 10px;
-}
-
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
-.dropdown-transparent-parent {
-    width: 100%;
-    height: 100%;
+    align-items: center;
+    align-self: center;
+    position: relative;
+    color: rgb(34, 34, 34);
     background-color: transparent;
 }
 
-.nav-link {
-    color: rgb(34, 34, 34);
+@media only screen and (min-width: 992px) {
 
-}
+    .top-navigation .quick-links .nav-link::before,
+    .nav-side-btns .nav-item .nav-link::before {
+        content: "";
+        position: absolute;
+        top: 85%;
+        width: 100%;
+        height: 1px;
+        visibility: hidden;
+        border-radius: 5px;
+        transform: scaleX(0);
+        transition: 0.25s linear;
+        background-color: rgb(34, 34, 34, 0.795);
+    }
 
-header .quick-links {
-    box-sizing:border-box;
-    width:18%;    
-    max-width:25%;
-    display: flex;
-    justify-content: space-evenly;
-}
+    .top-navigation .quick-links .nav-link:hover::before,
+    .nav-side-btns .nav-item .nav-link:hover::before {
+        transform: scaleX(1);
+        visibility: visible;
+    }
+
+
+
     
-header .quick-links .nav-link {
-    font-size:0.8125rem;
-    padding: 5px 0 0;
 }
-/* ================================================ End navbar ================================================ */
+
+.top-header-right-side-links select {
+    width: fit-content;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+.top-header-right-side-links select:focus {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.navbar-brand {
+    padding: 0;
+    margin-right: 60px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(105, 3, 105);
+}
+
+.navbar-brand:hover {
+    color: rgb(105, 3, 105);
+}
+
+
+.navbar-expand-lg .navbar-nav .dropdownParent .dropdown-menu {
+    position: static;
+    padding: 20px 64px 20px 10px;
+}
+
+.dropdownParent {
+    position: absolute;
+    padding-top: 19px;
+    background-color: transparent;
+    z-index: 2;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.nav-side-btns .nav-item .nav-link {
+    padding: 0;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+
+
+    .nav-side-btns {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .dropdownParent {
+        display: contents;
+    }
+
+    .dropdown .dropdown-menu {
+        display: block;
+    }
+    
+    .nav-item {
+        margin: 10px 0px;
+    }
+
+    .quick-links {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .top-navigation .quick-links div {
+        justify-content: center !important;
+    }
+
+    .navbar {
+        font-size: 1rem !important;
+    }
+
+
+}
+
+@media screen and (max-width: 865px) {
+    .navbar {
+        font-size: .8rem;
+    }
+}
+
+/* ================================================ End navbar================================================ */
 
 
 
@@ -477,6 +592,14 @@ overflow: hidden;
 
 /* ================================================ Start section three ================================================ */
 
+body > section.sectionThree > nav {
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+body > section.sectionThree > nav > div > a {
+    margin: 0 auto;
+}
 
 .sectionThree {
     margin: 50px auto;
